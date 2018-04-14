@@ -96,7 +96,8 @@
                 $first = false;        
             }
         });
-        $screen.keydown(function(e){
+        $(document).keydown(function(e){
+            $screen.focus();
             var $keycode = e.which,
                 $key = '';
             //console.log($keycode)

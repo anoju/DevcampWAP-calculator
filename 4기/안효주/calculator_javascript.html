@@ -97,7 +97,8 @@
             }
         });
     }
-    $screen.addEventListener('keydown' ,function(e){
+    document.addEventListener('keydown' ,function(e){
+        $screen.focus();
         var $keycode = e.keyCode,
             $key = '';
         //console.log($keycode)
